@@ -1,11 +1,11 @@
 ---
 name: governance-policy-enforcement
 description: Evaluate governance policies, manage approvals, simulate policy changes, and export audit evidence. Use when checking if an action is allowed, requesting approvals, simulating policy impact, requesting exceptions, or generating compliance reports.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-governance-policy server connected.
 allowed-tools: [evaluate_policy, open_approval, list_approvals, resolve_approval, simulate_policy, audit_log, request_exception, export_evidence]
-tags: [infrastructure, governance, compliance, policy, approvals]
 metadata:
+  category: platform
   author: Zavora AI
   mcp-server: mcp-governance-policy
   success-criteria:
